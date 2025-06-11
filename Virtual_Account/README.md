@@ -114,11 +114,11 @@ curl -X POST https://sandbox.tappaysdk.com/tpc/payment/pay-by-prime \\
         "national_id": "A190902632",
         "member_id": "0123498765"
     },
-    "result_url": {
+    
     "result_url": {
         "frontend_redirect_url": "https://tappay.github.io/tappay-web-example/Virtual_Account/example/index.html",
         "backend_notify_url": "https://your.server.com/notify"
-    }
+    
 }'`
             $("#curl").html(command)
         })
